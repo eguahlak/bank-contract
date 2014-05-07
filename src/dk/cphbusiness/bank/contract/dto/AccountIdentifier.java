@@ -24,8 +24,16 @@ public class AccountIdentifier implements Serializable {
     return number;
     }
 
+  public void setNumber(String number) {
+    this.number = number;
+    }
+  
   public String getReg() {
     return reg;
+    }
+
+  public void setReg(String reg) {
+    this.reg = reg;
     }
 
   @Override
