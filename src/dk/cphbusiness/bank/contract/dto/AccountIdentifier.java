@@ -17,7 +17,7 @@ public class AccountIdentifier implements Serializable {
     }
   
   public AccountIdentifier(String number) {
-    this(number, null);
+    this(null, number);
     }
 
   public String getNumber() {
